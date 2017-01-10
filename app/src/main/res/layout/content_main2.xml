@@ -13,4 +13,20 @@
     tools:context="com.campanale.leonardo.myapplication.Main2Activity"
     tools:showIn="@layout/activity_main2">
 
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mylistview"/>
+
+
 </RelativeLayout>

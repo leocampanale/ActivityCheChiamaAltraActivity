@@ -17,4 +17,18 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="GreenText" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+
+
+        <style name="stiletesto" parent="android:TextAppearance">
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textSize">25sp</item>
+            <item name="android:textStyle">bold</item>
+
+            <item name="android:paddingLeft">15dp</item>
+        </style>
+
+
 </resources>
